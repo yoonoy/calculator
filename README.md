@@ -4,7 +4,7 @@
 ## About project
 All functions in the calculator works, 
 only the UI is not reflected in the intelliJ because the Intellij Community does not support css and the UI can only be viewed in scene builder.
-And functions as (+,-,/ and e.t.c) is works without UI, I will show you in video.
+And functions as (+,-,/ and e.t.c) is works without UI, I will show you in a video.
 
 <img width="500" alt="Screenshot 2024-10-19 at 19 58 37" src="https://github.com/user-attachments/assets/c0f70732-7c06-4071-b82f-58c5ef48d8d1">
 
