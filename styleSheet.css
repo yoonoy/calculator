@@ -1,20 +1,28 @@
 .root{
-     -fx-background-color: #383838;
-     -fx-font-size:14pt;
-     -fx-text-fill: black;
+     -fx-background-color: #383838;  /* Set background color to a dark gray */
+     -fx-font-size: 14pt;            /* Set the default font size for text */
+     -fx-text-fill: black;           /* Set text color to black */
 }
+
+/* Styling for the text field (input display) */
 .text-field{
-     -fx-font-size:24pt;
+     -fx-font-size: 24pt;
 }
-.button{
+
+/* General button styling */
+.button-pink{
      -fx-background-color: #E8E8E8;
 }
+
+/* Styling for blue-themed buttons */
 .button-blue{
-     -fx-background-color: #64b5f6;;
+     -fx-background-color: #64b5f6;
      -fx-text-fill: #F8F8F8;
- }
+}
+
+/* Styling for pink-themed buttons */
 .button-pink{
-      -fx-background-color:pink;
-      -fx-text-fill:#F8F8F8;
-      -fx-font-size:15pt;
+      -fx-background-color: pink;    /* Set a pink background color */
+      -fx-text-fill: #F8F8F8;        /* Set text color to a light white-gray */
+      -fx-font-size: 15pt;           /* Set a slightly larger font size for pink buttons */
 }
