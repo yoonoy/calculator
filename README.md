@@ -1,7 +1,7 @@
-## Calculator application
+# Calculator application
 
 
-# About project
+## About project
 All functions in the calculator works, 
 only the UI is not reflected in the intelliJ because the Intellij Community does not support css and the UI can only be viewed in scene builder.
 
