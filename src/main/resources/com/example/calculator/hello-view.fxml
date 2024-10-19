@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox fx:controller="com.example.calculator.HelloController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="235.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="235.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculator.HelloController">
    <children>
       <TextField fx:id="txtDisplay" alignment="CENTER_RIGHT" nodeOrientation="LEFT_TO_RIGHT" prefHeight="70.0" prefWidth="255.0" />
       <GridPane VBox.vgrow="ALWAYS">
@@ -26,7 +26,7 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button mnemonicParsing="false" onAction="#handleGeneralAction" prefHeight="50.0" prefWidth="60.0" styleClass="button-blue" text="AC">
+            <Button mnemonicParsing="false" onAction="#handlerAcAction" prefHeight="50.0" prefWidth="60.0" styleClass="button-blue" text="AC">
                <GridPane.margin>
                   <Insets bottom="1.0" right="1.0" top="1.0" />
                </GridPane.margin>
@@ -111,7 +111,7 @@
                   <Insets bottom="1.0" right="1.0" top="1.0" />
                </GridPane.margin>
             </Button>
-            <Button mnemonicParsing="false" onAction="#handlerDecimalAction" prefHeight="50.0" prefWidth="60.0" text="," GridPane.columnIndex="2" GridPane.rowIndex="4">
+            <Button mnemonicParsing="false" onAction="#handlerAcAction" prefHeight="50.0" prefWidth="60.0" text="," GridPane.columnIndex="2" GridPane.rowIndex="4">
                <GridPane.margin>
                   <Insets bottom="1.0" right="1.0" top="1.0" />
                </GridPane.margin>
