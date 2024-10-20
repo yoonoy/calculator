@@ -17,7 +17,10 @@ Division by Zero: If division by zero is attempted, an error message ("Error: Di
 
 
 
-https://github.com/user-attachments/assets/20c537e8-f9f0-4eb2-8e2b-f943d2abbafa
+
+https://github.com/user-attachments/assets/a95d53f0-2265-4195-a7b4-4975eda063dc
+
+
 
 
 
