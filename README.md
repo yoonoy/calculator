@@ -7,7 +7,7 @@ It follows the Model-View-Controller (MVC) design pattern, where the logic, user
 
 
 ### Error Handling
-Division by Zero: If division by zero is attempted, an error message ("Error: Division by Zero") will be displayed in the text field.
+Division by Zero: If division by zero is attempted, an error message ("Error") will be displayed in the text field.
 
 
 
